@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CartConn
+# fart_CartConn
 #
-DEF CartConn X 0 40 Y Y 1 F N
+DEF fart_CartConn X 0 40 Y Y 1 F N
 F0 "X" 350 50 50 H V C CNN
-F1 "CartConn" 400 -50 50 H V C CNN
+F1 "fart_CartConn" 400 -50 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -35,11 +35,11 @@ X D2 9 -400 300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# F3853
+# fart_F3853
 #
-DEF F3853 U 0 40 Y Y 1 F N
+DEF fart_F3853 U 0 40 Y Y 1 F N
 F0 "U" 0 1050 50 H V C CNN
-F1 "F3853" 0 -1050 50 H V C CNN
+F1 "fart_F3853" 0 -1050 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -84,6 +84,49 @@ X ~RAM_WRITE 6 -600 450 200 R 50 50 1 1 O I
 X ~EXT_INT 7 -600 350 200 R 50 50 1 1 I L
 X A7 8 -600 250 200 R 50 50 1 1 O V
 X A6 9 -600 150 200 R 50 50 1 1 O V
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
