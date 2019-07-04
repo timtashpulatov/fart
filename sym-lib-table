@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name fart)(type Legacy)(uri ${KIPRJMOD}/fart.lib)(options "")(descr ""))
+)
