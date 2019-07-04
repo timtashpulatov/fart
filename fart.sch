@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:fart-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -187,4 +188,46 @@ Text Label 6600 3700 2    50   ~ 0
 D6
 Text Label 6600 3800 2    50   ~ 0
 D7
+Text Label 3400 3450 2    50   ~ 0
+A0
+Text Label 3400 3350 2    50   ~ 0
+A1
+Text Label 3400 3250 2    50   ~ 0
+A2
+Text Label 3400 3150 2    50   ~ 0
+A3
+Text Label 3400 3050 2    50   ~ 0
+A4
+Text Label 3400 2950 2    50   ~ 0
+A5
+Text Label 3400 2850 2    50   ~ 0
+A6
+Text Label 3400 2750 2    50   ~ 0
+A7
+Text Label 4600 3550 0    50   ~ 0
+A8
+Text Label 4600 3450 0    50   ~ 0
+A9
+Text Label 4600 3350 0    50   ~ 0
+A10
+Text Label 4600 3250 0    50   ~ 0
+A11
+Text Label 4600 3150 0    50   ~ 0
+A12
+Text Label 4600 3050 0    50   ~ 0
+A13
+Text Label 4600 2950 0    50   ~ 0
+A14
+Text Label 4600 2850 0    50   ~ 0
+A15
+Text Label 4600 2650 0    50   ~ 0
+CPU_READ
+Text Label 4600 2750 0    50   ~ 0
+REGDR
+Text Label 3400 2450 2    50   ~ 0
+~PRI_IN
+Text Label 3400 2550 2    50   ~ 0
+~RAM_WRITE
+Text Label 3400 2650 2    50   ~ 0
+~EXT_INT
 $EndSCHEMATC
