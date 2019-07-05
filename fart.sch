@@ -267,7 +267,7 @@ Wire Wire Line
 	4500 4650 4050 4650
 Wire Wire Line
 	4050 4650 4050 4900
-Text Notes 1950 4800 0    50   ~ 0
+Text Notes 3050 4700 0    50   ~ 0
 AT28C64 - 8Kx8
 Text Label 4450 5100 0    50   ~ 0
 D0
@@ -320,4 +320,63 @@ F 3 "" H 6000 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 4850 6000 5350
+Text Label 3650 5100 2    50   ~ 0
+A0
+Text Label 3650 5200 2    50   ~ 0
+A1
+Text Label 3650 5300 2    50   ~ 0
+A2
+Text Label 3650 5400 2    50   ~ 0
+A3
+Text Label 3650 5500 2    50   ~ 0
+A4
+Text Label 3650 5600 2    50   ~ 0
+A5
+Text Label 3650 5700 2    50   ~ 0
+A6
+Text Label 3650 5800 2    50   ~ 0
+A7
+Text Label 3650 5900 2    50   ~ 0
+A8
+Text Label 3650 6000 2    50   ~ 0
+A9
+Text Label 3650 6100 2    50   ~ 0
+A10
+$Comp
+L power:+5V #PWR?
+U 1 1 5D1F4388
+P 3650 6500
+F 0 "#PWR?" H 3650 6350 50  0001 C CNN
+F 1 "+5V" V 3665 6628 50  0000 L CNN
+F 2 "" H 3650 6500 50  0001 C CNN
+F 3 "" H 3650 6500 50  0001 C CNN
+	1    3650 6500
+	0    -1   -1   0   
+$EndComp
+Text Label 5400 5750 2    50   ~ 0
+A11
+Text Label 5400 5850 2    50   ~ 0
+A12
+Text Notes 2000 5650 0    50   ~ 0
+0000 - BIOS\n0800 - CART\n1000 - \n1800 -\n2000 -\n2800 -\n3000 -\n3800 -
+Wire Wire Line
+	5400 6200 5100 6200
+Wire Wire Line
+	5100 6200 5100 5400
+Wire Wire Line
+	5100 5400 5400 5400
+Wire Wire Line
+	5400 5550 5200 5550
+Wire Wire Line
+	5200 5550 5200 6000
+Wire Wire Line
+	5200 6000 5400 6000
+Wire Wire Line
+	5100 5400 5000 5400
+Connection ~ 5100 5400
+Text Label 5000 5400 2    50   ~ 0
+A13
+Wire Wire Line
+	5200 6000 5000 6000
+Connection ~ 5200 6000
 $EndSCHEMATC
