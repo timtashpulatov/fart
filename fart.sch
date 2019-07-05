@@ -230,4 +230,94 @@ Text Label 3400 2550 2    50   ~ 0
 ~RAM_WRITE
 Text Label 3400 2650 2    50   ~ 0
 ~EXT_INT
+$Comp
+L fart:AT28C64 U2
+U 1 1 5D1F340C
+P 4050 5900
+F 0 "U2" H 4050 7171 50  0000 C CNN
+F 1 "AT28C64" H 4050 7080 50  0000 C CNN
+F 2 "Housings_DIP:DIP-28_W15.24mm_Socket_LongPads" H 4050 4650 50  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf" H 4050 5900 50  0001 C CNN
+	1    4050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D1F43A7
+P 4050 7000
+F 0 "#PWR0107" H 4050 6750 50  0001 C CNN
+F 1 "GND" V 4055 6872 50  0001 R CNN
+F 2 "" H 4050 7000 50  0001 C CNN
+F 3 "" H 4050 7000 50  0001 C CNN
+	1    4050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5D1F4C37
+P 4500 4650
+F 0 "#PWR0108" H 4500 4500 50  0001 C CNN
+F 1 "+5V" V 4515 4778 50  0000 L CNN
+F 2 "" H 4500 4650 50  0001 C CNN
+F 3 "" H 4500 4650 50  0001 C CNN
+	1    4500 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 4650 4050 4650
+Wire Wire Line
+	4050 4650 4050 4900
+Text Notes 1950 4800 0    50   ~ 0
+AT28C64 - 8Kx8
+Text Label 4450 5100 0    50   ~ 0
+D0
+Text Label 4450 5200 0    50   ~ 0
+D1
+Text Label 4450 5300 0    50   ~ 0
+D2
+Text Label 4450 5400 0    50   ~ 0
+D3
+Text Label 4450 5500 0    50   ~ 0
+D4
+Text Label 4450 5600 0    50   ~ 0
+D5
+Text Label 4450 5700 0    50   ~ 0
+D6
+Text Label 4450 5800 0    50   ~ 0
+D7
+$Comp
+L 74xx_IEEE:74156 U3
+U 1 1 5D1FAB56
+P 6000 5800
+F 0 "U3" H 6100 6550 50  0000 C CNN
+F 1 "74156" H 6150 6450 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 6000 5200 50  0000 C CNN
+F 3 "" H 6000 5800 50  0001 C CNN
+	1    6000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D1FD0AA
+P 6000 6250
+F 0 "#PWR?" H 6000 6000 50  0001 C CNN
+F 1 "GND" V 6005 6122 50  0001 R CNN
+F 2 "" H 6000 6250 50  0001 C CNN
+F 3 "" H 6000 6250 50  0001 C CNN
+	1    6000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D1FD8C8
+P 6000 4850
+F 0 "#PWR?" H 6000 4700 50  0001 C CNN
+F 1 "+5V" H 5900 5000 50  0000 L CNN
+F 2 "" H 6000 4850 50  0001 C CNN
+F 3 "" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4850 6000 5350
 $EndSCHEMATC
