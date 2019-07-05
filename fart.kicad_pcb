@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 6)
@@ -216,7 +216,7 @@
   )
 
   (module Housings_DIP:DIP-40_W15.24mm_Socket_LongPads (layer F.Cu) (tedit 59C78D6C) (tstamp 5D1E0C91)
-    (at 176.53 95.25 270)
+    (at 175.26 91.44 270)
     (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads")
     (path /5D1E6D1B)
@@ -316,6 +316,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module fart:Cart_Conn (layer F.Cu) (tedit 5D1DFAB4) (tstamp 5D1E03E9)
@@ -376,14 +381,18 @@
       (net 4 /ROMC3))
   )
 
+  (gr_line (start 106.68 99.06) (end 116.84 88.9) (layer Edge.Cuts) (width 0.05) (tstamp 5D1EEF1B))
+  (gr_line (start 106.68 184.15) (end 106.68 99.06) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 195.58 184.15) (end 106.68 184.15) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 195.58 99.06) (end 195.58 184.15) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 185.42 88.9) (end 195.58 99.06) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 152.4 62.23) (end 154.94 62.23) (layer Edge.Cuts) (width 0.05) (tstamp 5D1E0A63))
   (gr_line (start 152.4 69.85) (end 152.4 62.23) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 149.86 69.85) (end 152.4 69.85) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 154.94 62.23) (end 185.42 62.23) (layer Edge.Cuts) (width 0.05) (tstamp 5D1E0A54))
   (gr_line (start 149.86 62.23) (end 149.86 69.85) (layer Edge.Cuts) (width 0.05) (tstamp 5D1E0A49))
-  (gr_line (start 116.84 128.27) (end 116.84 62.23) (layer Edge.Cuts) (width 0.05) (tstamp 5D1E095C))
-  (gr_line (start 185.42 128.27) (end 116.84 128.27) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 185.42 62.23) (end 185.42 128.27) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 116.84 88.9) (end 116.84 62.23) (layer Edge.Cuts) (width 0.05) (tstamp 5D1E095C))
+  (gr_line (start 185.42 62.23) (end 185.42 88.9) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 116.84 62.23) (end 149.86 62.23) (layer Edge.Cuts) (width 0.05))
 
 )
