@@ -233,150 +233,332 @@ Text Label 3400 2650 2    50   ~ 0
 $Comp
 L fart:AT28C64 U2
 U 1 1 5D1F340C
-P 4050 5900
-F 0 "U2" H 4050 7171 50  0000 C CNN
-F 1 "AT28C64" H 4050 7080 50  0000 C CNN
-F 2 "Housings_DIP:DIP-28_W15.24mm_Socket_LongPads" H 4050 4650 50  0000 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf" H 4050 5900 50  0001 C CNN
-	1    4050 5900
+P 1550 5900
+F 0 "U2" H 1550 7171 50  0000 C CNN
+F 1 "AT28C64" H 1550 7080 50  0000 C CNN
+F 2 "Housings_DIP:DIP-28_W15.24mm_Socket_LongPads" H 1550 4650 50  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf" H 1550 5900 50  0001 C CNN
+	1    1550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5D1F43A7
-P 4050 7000
-F 0 "#PWR0107" H 4050 6750 50  0001 C CNN
-F 1 "GND" V 4055 6872 50  0001 R CNN
-F 2 "" H 4050 7000 50  0001 C CNN
-F 3 "" H 4050 7000 50  0001 C CNN
-	1    4050 7000
+P 1550 7000
+F 0 "#PWR0107" H 1550 6750 50  0001 C CNN
+F 1 "GND" V 1555 6872 50  0001 R CNN
+F 2 "" H 1550 7000 50  0001 C CNN
+F 3 "" H 1550 7000 50  0001 C CNN
+	1    1550 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0108
 U 1 1 5D1F4C37
-P 4500 4650
-F 0 "#PWR0108" H 4500 4500 50  0001 C CNN
-F 1 "+5V" V 4515 4778 50  0000 L CNN
-F 2 "" H 4500 4650 50  0001 C CNN
-F 3 "" H 4500 4650 50  0001 C CNN
-	1    4500 4650
+P 2000 4650
+F 0 "#PWR0108" H 2000 4500 50  0001 C CNN
+F 1 "+5V" V 2015 4778 50  0000 L CNN
+F 2 "" H 2000 4650 50  0001 C CNN
+F 3 "" H 2000 4650 50  0001 C CNN
+	1    2000 4650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4500 4650 4050 4650
+	2000 4650 1550 4650
 Wire Wire Line
-	4050 4650 4050 4900
-Text Notes 3050 4700 0    50   ~ 0
+	1550 4650 1550 4900
+Text Notes 550  4700 0    50   ~ 0
 AT28C64 - 8Kx8
-Text Label 4450 5100 0    50   ~ 0
+Text Label 1950 5100 0    50   ~ 0
 D0
-Text Label 4450 5200 0    50   ~ 0
+Text Label 1950 5200 0    50   ~ 0
 D1
-Text Label 4450 5300 0    50   ~ 0
+Text Label 1950 5300 0    50   ~ 0
 D2
-Text Label 4450 5400 0    50   ~ 0
+Text Label 1950 5400 0    50   ~ 0
 D3
-Text Label 4450 5500 0    50   ~ 0
+Text Label 1950 5500 0    50   ~ 0
 D4
-Text Label 4450 5600 0    50   ~ 0
+Text Label 1950 5600 0    50   ~ 0
 D5
-Text Label 4450 5700 0    50   ~ 0
+Text Label 1950 5700 0    50   ~ 0
 D6
-Text Label 4450 5800 0    50   ~ 0
+Text Label 1950 5800 0    50   ~ 0
 D7
 $Comp
 L 74xx_IEEE:74156 U3
 U 1 1 5D1FAB56
-P 6000 5800
-F 0 "U3" H 6100 6550 50  0000 C CNN
-F 1 "74156" H 6150 6450 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 6000 5200 50  0000 C CNN
-F 3 "" H 6000 5800 50  0001 C CNN
-	1    6000 5800
+P 4000 5450
+F 0 "U3" H 4075 6025 50  0000 C CNN
+F 1 "74156" H 4150 5950 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 4000 4850 50  0000 C CNN
+F 3 "" H 4000 5450 50  0001 C CNN
+	1    4000 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 5D1FD0AA
-P 6000 6250
-F 0 "#PWR?" H 6000 6000 50  0001 C CNN
-F 1 "GND" V 6005 6122 50  0001 R CNN
-F 2 "" H 6000 6250 50  0001 C CNN
-F 3 "" H 6000 6250 50  0001 C CNN
-	1    6000 6250
+P 4000 5900
+F 0 "#PWR0109" H 4000 5650 50  0001 C CNN
+F 1 "GND" V 4005 5772 50  0001 R CNN
+F 2 "" H 4000 5900 50  0001 C CNN
+F 3 "" H 4000 5900 50  0001 C CNN
+	1    4000 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0110
 U 1 1 5D1FD8C8
-P 6000 4850
-F 0 "#PWR?" H 6000 4700 50  0001 C CNN
-F 1 "+5V" H 5900 5000 50  0000 L CNN
-F 2 "" H 6000 4850 50  0001 C CNN
-F 3 "" H 6000 4850 50  0001 C CNN
-	1    6000 4850
+P 4000 4850
+F 0 "#PWR0110" H 4000 4700 50  0001 C CNN
+F 1 "+5V" H 3900 5000 50  0000 L CNN
+F 2 "" H 4000 4850 50  0001 C CNN
+F 3 "" H 4000 4850 50  0001 C CNN
+	1    4000 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 4850 6000 5350
-Text Label 3650 5100 2    50   ~ 0
+	4000 4850 4000 5000
+Text Label 1150 5100 2    50   ~ 0
 A0
-Text Label 3650 5200 2    50   ~ 0
+Text Label 1150 5200 2    50   ~ 0
 A1
-Text Label 3650 5300 2    50   ~ 0
+Text Label 1150 5300 2    50   ~ 0
 A2
-Text Label 3650 5400 2    50   ~ 0
+Text Label 1150 5400 2    50   ~ 0
 A3
-Text Label 3650 5500 2    50   ~ 0
+Text Label 1150 5500 2    50   ~ 0
 A4
-Text Label 3650 5600 2    50   ~ 0
+Text Label 1150 5600 2    50   ~ 0
 A5
-Text Label 3650 5700 2    50   ~ 0
+Text Label 1150 5700 2    50   ~ 0
 A6
-Text Label 3650 5800 2    50   ~ 0
+Text Label 1150 5800 2    50   ~ 0
 A7
-Text Label 3650 5900 2    50   ~ 0
+Text Label 1150 5900 2    50   ~ 0
 A8
-Text Label 3650 6000 2    50   ~ 0
+Text Label 1150 6000 2    50   ~ 0
 A9
-Text Label 3650 6100 2    50   ~ 0
+Text Label 1150 6100 2    50   ~ 0
 A10
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0111
 U 1 1 5D1F4388
-P 3650 6500
-F 0 "#PWR?" H 3650 6350 50  0001 C CNN
-F 1 "+5V" V 3665 6628 50  0000 L CNN
-F 2 "" H 3650 6500 50  0001 C CNN
-F 3 "" H 3650 6500 50  0001 C CNN
-	1    3650 6500
+P 1150 6500
+F 0 "#PWR0111" H 1150 6350 50  0001 C CNN
+F 1 "+5V" V 1165 6628 50  0000 L CNN
+F 2 "" H 1150 6500 50  0001 C CNN
+F 3 "" H 1150 6500 50  0001 C CNN
+	1    1150 6500
 	0    -1   -1   0   
 $EndComp
-Text Label 5400 5750 2    50   ~ 0
+Text Label 3400 5400 2    50   ~ 0
 A11
-Text Label 5400 5850 2    50   ~ 0
+Text Label 3400 5500 2    50   ~ 0
 A12
-Text Notes 2000 5650 0    50   ~ 0
+Text Notes 1025 3650 0    50   ~ 0
 0000 - BIOS\n0800 - CART\n1000 - \n1800 -\n2000 -\n2800 -\n3000 -\n3800 -
 Wire Wire Line
-	5400 6200 5100 6200
+	3400 5850 3100 5850
 Wire Wire Line
-	5100 6200 5100 5400
+	3100 5850 3100 5050
 Wire Wire Line
-	5100 5400 5400 5400
+	3100 5050 3400 5050
 Wire Wire Line
-	5400 5550 5200 5550
+	3400 5200 3200 5200
 Wire Wire Line
-	5200 5550 5200 6000
+	3200 5200 3200 5650
 Wire Wire Line
-	5200 6000 5400 6000
+	3200 5650 3400 5650
 Wire Wire Line
-	5100 5400 5000 5400
-Connection ~ 5100 5400
-Text Label 5000 5400 2    50   ~ 0
+	3100 5050 3000 5050
+Connection ~ 3100 5050
+Text Label 3000 5050 2    50   ~ 0
 A13
 Wire Wire Line
-	5200 6000 5000 6000
-Connection ~ 5200 6000
+	3200 5650 3200 5900
+Connection ~ 3200 5650
+$Comp
+L power:GND #PWR0112
+U 1 1 5D21D54E
+P 3200 5900
+F 0 "#PWR0112" H 3200 5650 50  0001 C CNN
+F 1 "GND" V 3205 5772 50  0001 R CNN
+F 2 "" H 3200 5900 50  0001 C CNN
+F 3 "" H 3200 5900 50  0001 C CNN
+	1    3200 5900
+	1    0    0    -1  
+$EndComp
+Text Label 4600 5050 0    50   ~ 0
+00xx
+Text Label 4600 5150 0    50   ~ 0
+08xx
+Text Label 4600 5250 0    50   ~ 0
+10xx
+Text Label 4600 5350 0    50   ~ 0
+18xx
+Text Label 4600 5550 0    50   ~ 0
+20xx
+Text Label 4600 5650 0    50   ~ 0
+28xx
+Text Label 4600 5750 0    50   ~ 0
+30xx
+Text Label 4600 5850 0    50   ~ 0
+38xx
+$Comp
+L fart:AT28C16 U5
+U 1 1 5D21FCB5
+P 6050 5650
+F 0 "U5" H 6050 6555 50  0000 C CNN
+F 1 "AT28C16" H 6050 6464 50  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W15.24mm_Socket_LongPads" H 6050 6373 50  0000 C CNN
+F 3 "" H 6050 5650 50  0001 C CNN
+	1    6050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5D22119E
+P 5550 6200
+F 0 "#PWR0113" H 5550 5950 50  0001 C CNN
+F 1 "GND" V 5555 6072 50  0001 R CNN
+F 2 "" H 5550 6200 50  0001 C CNN
+F 3 "" H 5550 6200 50  0001 C CNN
+	1    5550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5D2215DA
+P 6725 5100
+F 0 "#PWR0114" H 6725 4950 50  0001 C CNN
+F 1 "+5V" V 6740 5228 50  0000 L CNN
+F 2 "" H 6725 5100 50  0001 C CNN
+F 3 "" H 6725 5100 50  0001 C CNN
+	1    6725 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 5100 6725 5100
+Wire Wire Line
+	6550 5400 6725 5400
+Wire Wire Line
+	6725 5400 6725 5100
+Connection ~ 6725 5100
+Text Label 5550 5800 2    50   ~ 0
+A0
+Text Label 5550 5700 2    50   ~ 0
+A1
+Text Label 5550 5600 2    50   ~ 0
+A2
+Text Label 5550 5500 2    50   ~ 0
+A3
+Text Label 5550 5400 2    50   ~ 0
+A4
+Text Label 5550 5300 2    50   ~ 0
+A5
+Text Label 5550 5200 2    50   ~ 0
+A6
+Text Label 5550 5100 2    50   ~ 0
+A7
+Text Label 5550 5900 2    50   ~ 0
+D0
+Text Label 5550 6000 2    50   ~ 0
+D1
+Text Label 5550 6100 2    50   ~ 0
+D2
+Text Label 6550 6200 0    50   ~ 0
+D3
+Text Label 6550 6100 0    50   ~ 0
+D4
+Text Label 6550 6000 0    50   ~ 0
+D5
+Text Label 6550 5900 0    50   ~ 0
+D6
+Text Label 6550 5800 0    50   ~ 0
+D7
+Text Label 6550 5200 0    50   ~ 0
+A8
+Text Label 6550 5300 0    50   ~ 0
+A9
+Text Label 6550 5600 0    50   ~ 0
+A10
+Wire Wire Line
+	4600 5150 5000 5150
+Wire Wire Line
+	5000 5150 5000 4750
+Wire Wire Line
+	5000 4750 7250 4750
+Wire Wire Line
+	7250 4750 7250 5700
+Wire Wire Line
+	7250 5700 6550 5700
+$Comp
+L 74xx:74LS00 U4
+U 1 1 5D22BA67
+P 5550 2650
+F 0 "U4" H 5550 2975 50  0000 C CNN
+F 1 "74LS00" H 5550 2884 50  0000 C CNN
+F 2 "" H 5550 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5550 2650 50  0001 C CNN
+	1    5550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U4
+U 3 1 5D22FC26
+P 9800 5000
+F 0 "U4" H 9800 5325 50  0000 C CNN
+F 1 "74LS00" H 9800 5234 50  0000 C CNN
+F 2 "" H 9800 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9800 5000 50  0001 C CNN
+	3    9800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U4
+U 4 1 5D231DC1
+P 9800 5750
+F 0 "U4" H 9800 6075 50  0000 C CNN
+F 1 "74LS00" H 9800 5984 50  0000 C CNN
+F 2 "" H 9800 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9800 5750 50  0001 C CNN
+	4    9800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2550 5175 2550
+Wire Wire Line
+	5175 2550 5175 2650
+Wire Wire Line
+	5175 2750 5250 2750
+Wire Wire Line
+	4600 2650 5175 2650
+Connection ~ 5175 2650
+Wire Wire Line
+	5175 2650 5175 2750
+Text Label 6800 5500 0    50   ~ 0
+~CPU_READ
+Wire Wire Line
+	5850 2650 6000 2650
+Wire Wire Line
+	6000 2650 6000 4625
+Wire Wire Line
+	6000 4625 7375 4625
+Wire Wire Line
+	7375 4625 7375 5500
+Wire Wire Line
+	7375 5500 6550 5500
+$Comp
+L 74xx:74LS00 U4
+U 2 1 5D22D8CD
+P 8775 5750
+F 0 "U4" H 8775 6165 50  0000 C CNN
+F 1 "74LS00" H 8775 6074 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8775 5983 50  0000 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8775 5750 50  0001 C CNN
+	2    8775 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
