@@ -1,4 +1,4 @@
 # fart
 Flash Cartridge for Fairchild Channel F
 
-!(doc/fart.jpg)
+![3dview](doc/fart.jpg)
