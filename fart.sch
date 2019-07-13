@@ -390,21 +390,21 @@ F 3 "" H 3200 5900 50  0001 C CNN
 	1    3200 5900
 	1    0    0    -1  
 $EndComp
-Text Label 4600 5050 0    50   ~ 0
-00xx
-Text Label 4600 5150 0    50   ~ 0
-08xx
-Text Label 4600 5250 0    50   ~ 0
-10xx
-Text Label 4600 5350 0    50   ~ 0
-18xx
 Text Label 4600 5550 0    50   ~ 0
-20xx
+00xx
 Text Label 4600 5650 0    50   ~ 0
-28xx
+08xx
 Text Label 4600 5750 0    50   ~ 0
-30xx
+10xx
 Text Label 4600 5850 0    50   ~ 0
+18xx
+Text Label 4600 5050 0    50   ~ 0
+20xx
+Text Label 4600 5150 0    50   ~ 0
+28xx
+Text Label 4600 5250 0    50   ~ 0
+30xx
+Text Label 4600 5350 0    50   ~ 0
 38xx
 $Comp
 L fart:AT28C16 U5
@@ -484,10 +484,6 @@ Text Label 6550 5300 0    50   ~ 0
 A9
 Text Label 6550 5600 0    50   ~ 0
 A10
-Wire Wire Line
-	4600 5150 5000 5150
-Wire Wire Line
-	5000 5150 5000 4750
 Wire Wire Line
 	5000 4750 7250 4750
 Wire Wire Line
@@ -627,4 +623,8 @@ Wire Wire Line
 Wire Wire Line
 	10375 2500 10375 2550
 Connection ~ 8500 2500
+Wire Wire Line
+	5000 5650 4600 5650
+Wire Wire Line
+	5000 4750 5000 5650
 $EndSCHEMATC
